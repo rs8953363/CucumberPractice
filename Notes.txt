@@ -1,0 +1,12 @@
+Packages
+-pages: for WebElements
+-runners: to run the test
+-stepdefinitions: test methods
+-utilities: driver, configurationReader etc.
+
+In configuration.properties file, make sure you don't have space after values
+
+The difference between TestNG and Cucumber is the features file. You write your test scenario in your features file.
+You need to add a tag to run a scenario. You need to decide which test should be with a tag name.
+You also need runners class to run your tests instead of clicking run button. So you need the test's tagName to run that test.
+Runner class is created only once.
